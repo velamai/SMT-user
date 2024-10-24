@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import React from 'react';
-import { MacbookScroll } from "../ui/macbook-scroll";
+import { MacbookScroll } from './ui/macbook-scroll';
 const Macbook = () => {
+  
+    const imagesrc = "/images/laptop.png"
   return  (
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full ">
       <MacbookScroll
@@ -15,15 +16,15 @@ const Macbook = () => {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={`/linear.webp`}
+        src={imagesrc}
         showGradient={false}
-        className="mt-2"
+       
       />
     </div>
   );
 }
 
-const Badge = ({ className } ) => {
+const Badge = ({ className }: { className?: string } ) => {
     return (
       <svg
         width="24"
