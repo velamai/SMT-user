@@ -7,8 +7,8 @@ import {
 import Image from "next/image"
 const Bottom = () => {
     return (
-        <div className="flex flex-row pl-[250px] pr-[30px] w-full bg-gray-100">
-            <div className="W-1/2 h-full flex flex-col  mt-[40px] gap-8 ">
+        <div className="flex flex-col md:flex-row pl-[50px] md:pl-[250px] gap-8 md:gap-0 pr-[30px] w-full bg-gray-100">
+            <div className=" W-1/2 h-full flex flex-col  mt-[40px] gap-8 ">
                 <div className="text-5xl font-semibold">
                     <p>
                         What you need <br />
@@ -24,7 +24,7 @@ const Bottom = () => {
                     <Image src="/images/nexts.png" alt="next" height={30} width={30} />
                 </div>
             </div>
-            <div className="pl-[100px] w-1/2 ">
+            <div className="pl-0 md:pl-[100px] w-[400px] md:w-1/2 ">
                 <Accordion type="single" collapsible >
                     <AccordionItem value="item-1" className="mb-2 bg-white">
                         <AccordionTrigger>What is Savemytaxes.in ?</AccordionTrigger>

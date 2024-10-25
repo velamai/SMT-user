@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Choose = () => {
     return (
-        <div className=" w-full  h-[450px] flex flex-row">
-            <div className="flex flex-row mx-[250px]">
-                <div className="W-1/2 h-[300px] mt-[40px] ">
+        <div className=" w-[485px] md:w-full h-[350px] md:h-[450px] flex flex-col ">
+            <div className="flex flex-row  mx-0 md:mx-[250px] ">
+                <div className="W-1/2 h-[300px] mt-[40px] hidden md:block ">
                     <Image
                         src="/images/OBJECTS.png"
                         width={380}
@@ -12,7 +12,7 @@ const Choose = () => {
 
                     />
                 </div>
-                <div className="W-1/2 h-full flex flex-col ml-[140px] mt-[40px] gap-8">
+                <div className=" W-1/2 h-full flex flex-col mx-[30px] md:ml-[140px] mt-[40px] gap-8">
                     <div className="text-5xl font-semibold">
                         <p>
                             Why choose <br />

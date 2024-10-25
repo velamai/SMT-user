@@ -1,7 +1,7 @@
 import Businesscomponent from "@/components/Businesscomponent"
 const Business = () => {
     return (
-        <div className="px-[250px] bg-gray-100 pt-[50px] pb-[20px] flex flex-col">
+        <div className="px-12 md:px-[250px] bg-gray-100 pt-[450px] md:pt-[50px] pb-[20px] flex flex-col">
             <p className='font-bold text-lg'>For Your Business</p>
             <div className="flex flex-col gap-2 mt-4">
                 <Businesscomponent text="Financial Modelling" />

@@ -15,7 +15,10 @@ export default function Home() {
       <Header />
       <Alert />
       <Hero />
-      <MacbookScroll />
+      <div className="hidden md:block">
+        <MacbookScroll />
+      </div>
+
       <Choose />
       <Dont />
       <Business />
