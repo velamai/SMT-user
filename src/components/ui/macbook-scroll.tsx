@@ -80,7 +80,7 @@ export const MacbookScroll = ({
       >
         {title || (
           <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
+            Navigate the complexities of taxation with our comprehensive guide,<br /> ensuring you maximize deductions and comply with regulations.
           </span>
         )}
       </motion.h2>
@@ -125,7 +125,7 @@ export const Lid = ({
   scaleY,
   rotate,
   translate,
-  src,
+
 }: {
   scaleX: MotionValue<number>;
   scaleY: MotionValue<number>;
@@ -151,7 +151,7 @@ export const Lid = ({
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
         >
           <span className="text-white">
-            
+
           </span>
         </div>
       </div>
@@ -167,14 +167,14 @@ export const Lid = ({
         className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
-        {src ? (
-  <Image
-    src={src}
-    alt="aceternity logo"
-    fill
-    className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
-  />
-) : null}
+
+        <Image
+          src="/images/laptop.png"
+          alt="aceternity logo"
+          fill
+          className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
+        />
+
       </motion.div>
     </div>
   );

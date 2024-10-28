@@ -16,6 +16,7 @@ const config = {
   			'dark-gray-transparent': 'rgba(34, 34, 34, 0.69)',
   			'light-gray': '#F3F3F3',
 			'Footergreen': '#004751',
+			'darkGreen': '#154618',
   		},
   		keyframes: {
   			'accordion-down': {

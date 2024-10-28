@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { MacbookScroll } from './ui/macbook-scroll';
 const Macbook = () => {
 
-  const imagesrc = "/images/laptop.png"
+
   return (
     <div className="  overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
       <MacbookScroll
         title={
           <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
+            Navigate the complexities of taxation with our comprehensive guide, ensuring you maximize deductions and comply with regulations.
           </span>
         }
         badge={
@@ -16,7 +16,7 @@ const Macbook = () => {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={imagesrc}
+
         showGradient={false}
 
       />

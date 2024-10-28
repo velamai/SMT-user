@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="py-4 px-[70px]  text-dark-gray-transparent ">
                 Focus on your growth while we handle your tax andcompliance on time.
             </div>
-            <div className="bg-white gap-x-[50px] p-1 flex-wrap flex md:flex-row w-[390px] md:w-[1015px] h-[270px] md:h-[90px] rounded-xl overflow-hidden  z-30">
+            <div className="bg-white gap-x-[50px] md:gap-0 p-1 flex flex-wrap md:flex-row w-[390px] md:w-[1030px] h-[270px] md:h-[90px] rounded-xl overflow-hidden  z-30">
                 <div className="bg-light-gray my-2 mx-2 rounded-xl p-3 w-[150px]">
                     <p className="font-semibold">1000 +</p>
                     <p className="text-dark-gray-transparent">Happy Customers</p>
@@ -40,8 +40,8 @@ const Hero = () => {
                     <p className="font-semibold">150 +</p>
                     <p className="text-dark-gray-transparent">GST Filling</p>
                 </div>
-                <div className="bg-light-gray flex my-2 mx-2 rounded-xl ">
-                    <div className="w-[70px] h-[50px] border-r-2 border-slate-400 mt-3 px-2     ">
+                <div className="bg-light-gray flex my-2 mx-2 rounded-xl">
+                    <div className="w-[70px] h-[50px] border-r-2 border-slate-400 mt-3 px-2">
                         <Image src="/images/google.png" alt="google" width={60} height={60} />
                     </div>
                     <div className="flex flex-col py-2 px-4">
@@ -50,7 +50,6 @@ const Hero = () => {
                         </div>
                         <div className="mt-1 ">
                             <div className="flex w-[265px] gap-[2px]">
-
                                 <div className="flex gap-1">
                                     <Image src="/images/star.png" width={20} height={20} alt="star" />
                                     <Image src="/images/star.png" width={20} height={20} alt="star" />
