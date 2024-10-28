@@ -4,7 +4,6 @@ import Business from "@/components/Business";
 import Choose from "@/components/Choose";
 import Dont from "@/components/Dont";
 import Footer1 from "@/components/Footer1";
-import Footer2 from "@/components/Footer2";
 
 import Hero from "@/components/Hero";
 // Any other global styles
@@ -20,7 +19,6 @@ export default function Home() {
       <Business />
       <Bottom />
       <Footer1 />
-      <Footer2 />
     </div>
   );
 }

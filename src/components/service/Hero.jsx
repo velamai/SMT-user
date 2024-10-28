@@ -22,8 +22,8 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col md:flex-row w-[500px] md:w-[1250px] h-[2200px] md:h-[550px] mt-[50px]  gap-3">
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4 ml-[100px] md:ml-[0px] h-[475px] md:h-[470px] rounded-2xl pt-6  gap-5 shadow-2xl">
-                        <div className="flex flex-col ml-5 gap-4    ">
-                            <p className="font-bold text-xl">Free</p>
+                        <div className="flex flex-col ml-5 gap-4 ">
+                            <p className="font-bold text-xl">Professional Plan</p>
                             <div>
                                 <p>Based on quality income and</p>
                                 <p>deductions.<span className="text-blue-500 underline">See if you quality.</span></p>
@@ -57,8 +57,11 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
-                        <div className="flex flex-col ml-5 gap-4    ">
-                            <p className="font-bold text-xl">Deluxe</p>
+                        <div className="flex flex-col ml-5 gap-4 static   ">
+                            <div className="h-[30px] w-[150px] absolute bg-orange-500 flex flex-col justify-center items-center rounded-full bottom-[355px] left-[525px]">
+                                <p className="text-white">MOST POPULAR</p>
+                            </div>
+                            <p className="font-bold text-xl">Salary Plan</p>
                             <div>
                                 <p className="font-semibold">Everything in Free plus</p>
 
@@ -96,7 +99,7 @@ const Hero = () => {
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4  h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4    ">
-                            <p className="font-bold text-xl">Premier</p>
+                            <p className="font-bold text-xl">NRI Plan</p>
                             <div>
                                 <p className="font-semibold">Everything in Deluxe plus</p>
                             </div>
@@ -132,7 +135,7 @@ const Hero = () => {
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4    ">
-                            <p className="font-bold text-xl">Self-Employed</p>
+                            <p className="font-bold text-xl">Get a customized plan</p>
                             <div>
                                 <p className="font-semibold">Everything in Premier plus:</p>
                             </div>

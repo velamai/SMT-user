@@ -19,7 +19,7 @@ const Dont = () => {
                 <p className="text-lg font-bold pt-2">For you</p>
                 <div className="flex flex-col md:flex-row gap-8">
                     <div className=" w-[400px] md:w-1/3 h-full border-2 border-gray-300 p-3 rounded-xl bg-white">
-                        <Image src="/images/itr filing.png" alt="itr" width={30} height={30} />
+                        <Image src="/images/itr.png" alt="itr" width={30} height={30} />
                         <p className="text-xl font-bold mt-4">ITR Filing Assistance</p>
                         <p className="text-sm mt-2 text-gray-400">Get Expert assistance in tax filing for Salaried<br /> and self-employed individuals, NRIs, Capital<br /> gains, and more.</p>
                     </div>
