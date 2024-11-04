@@ -13,7 +13,9 @@ export default function Home() {
     <div >
       <Alert />
       <Hero />
+
       <MacbookScroll />
+
       <Choose />
       <Dont />
       <Business />

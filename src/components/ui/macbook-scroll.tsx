@@ -23,7 +23,7 @@ import {
 } from "@tabler/icons-react";
 import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, } from "react";
 
 export const MacbookScroll = ({
   src,
@@ -42,23 +42,18 @@ export const MacbookScroll = ({
     offset: ["start start", "end start"],
   });
 
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    if (window && window.innerWidth < 768) {
-      setIsMobile(true);
-    }
-  }, []);
 
   const scaleX = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [1.2, isMobile ? 1 : 1.5]
+    [1.2, 1.5]
   );
   const scaleY = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [0.6, isMobile ? 1 : 1.5]
+    [0.6, 1.5]
   );
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
@@ -68,7 +63,7 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="h-[1600px] overflow-hidden bg-gray-100 flex flex-col items-center pb-[30px] md:py-20 justify-start flex-shrink-0 [perspective:200px] transform md:scale-100  scale-[0.35] sm:scale-50"
+      className="h-[1600px] w-[485px] md:w-auto overflow-hidden bg-gray-200 flex flex-col items-center pb-[30px] py-10 md:py-20 px-3 md:px-auto justify-start flex-shrink-0 [perspective:200px] transform "
     >
       <motion.h2
         style={{
@@ -93,7 +88,7 @@ export const MacbookScroll = ({
         translate={translate}
       />
       {/* Base area */}
-      <div className="h-[22rem] w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
+      <div className="h-[22rem] w-[520px] md:w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
         {/* above keyboard bar */}
         <div className="h-10 w-full relative">
           <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
@@ -142,7 +137,7 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           overflow: "hidden",
         }}
-        className="h-[12rem] w-[32rem] bg-[#010101] rounded-2xl p-2 relative"
+        className="h-[12rem] w-[400px] md:w-[32rem] bg-[#010101] rounded-2xl p-2 relative"
       >
         <div
           style={{
@@ -164,7 +159,7 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
+        className="h-96 w-[400px] md:w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
 
@@ -172,7 +167,7 @@ export const Lid = ({
           src="/images/laptop.png"
           alt="aceternity logo"
           fill
-          className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
+          className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full "
         />
 
       </motion.div>
