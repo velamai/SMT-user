@@ -1,6 +1,5 @@
 
 import Image from "next/image";
-import { CiCircleAlert } from "react-icons/ci";
 import { FaTag } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
 const Hero = () => {
@@ -20,13 +19,13 @@ const Hero = () => {
                     <div className="w-[50px] h-[25px]  border-slate-400 border-r-2">4.4/5</div>
                     <p className="ml-2">22500+ Reviews</p>
                 </div>
-                <div className="flex flex-col md:flex-row w-[500px] md:w-[1250px] h-[2200px] md:h-[550px] mt-[50px]  gap-3">
-                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 ml-[100px] md:ml-[0px] h-[475px] md:h-[470px] rounded-2xl pt-6  gap-5 shadow-2xl">
+                <div className="flex flex-col md:flex-row w-[500px] md:w-[1250px] h-[2200px] md:h-[450px] mt-[50px]  gap-3">
+                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 ml-[100px] md:ml-[0px] h-[475px] md:h-[390px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4 ">
                             <p className="font-bold text-xl">Professional Plan</p>
                             <div>
-                                <p>Based on quality income and</p>
-                                <p>deductions.<span className="text-blue-500 underline">See if you quality.</span></p>
+                                <p className="font-semibold">Based on quality income and</p>
+                                <p className="font-semibold">deductions.</p>
                             </div>
 
                             <ul className="flex flex-col gap-4">
@@ -37,26 +36,19 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Student,Child Tax Credit, More</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$1899</p>
-                            <p className="underline text-black opacity-80">+State Additional</p>
-                            <div className="flex items-center gap-3">
-                                <Image src="/images/button.png" alt="button" width={30} height={15} />
-                                <p>
-                                    Add <span className="bg-gradient-to-r from-red-600 via-orange-500  to-blue-400 bg-clip-text text-transparent">Live Tax Advice</span>
-                                </p>
-                                <CiCircleAlert className="text-xl" />
-                            </div>
+                            <p className="text-4xl font-bold">₹1899</p>
+
+
                         </div>
                         <div className="flex items-center gap-2 bg-custom-green py-2 pl-5">
                             <FaTag />
-                            <p className="text-[#DE5C09]">56%</p>
-                            <p>Less than Turbo Tax</p>
+                            <p>Clear tax & Others Price ₹ 1899</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
                             <p>Book now</p>
                         </div>
                     </div>
-                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
+                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[390px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4 static   ">
                             <div className="h-[30px] w-[150px] absolute bg-orange-500 flex flex-col justify-center items-center rounded-full bottom-[355px] left-[525px]">
                                 <p className="text-white">MOST POPULAR</p>
@@ -78,15 +70,9 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Health Savings Account</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$999</p>
-                            <p className="underline text-black opacity-80">+State Additional</p>
-                            <div className="flex items-center gap-3">
-                                <Image src="/images/button.png" alt="button" width={30} height={15} />
-                                <p>
-                                    Add <span className="bg-gradient-to-r from-red-600 via-orange-500  to-blue-400 bg-clip-text text-transparent">Live Tax Advice</span>
-                                </p>
-                                <CiCircleAlert className="text-xl" />
-                            </div>
+                            <p className="text-4xl font-bold">₹999</p>
+
+
                         </div>
                         <div className="flex items-center gap-2 bg-custom-green py-2 pl-5">
                             <FaTag />
@@ -97,7 +83,7 @@ const Hero = () => {
                             <p>Book now</p>
                         </div>
                     </div>
-                    <div className="flex flex-col bg-white w-[300px] md:w-1/4  h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
+                    <div className="flex flex-col bg-white w-[300px] md:w-1/4  h-[475px] md:h-[390px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4    ">
                             <p className="font-bold text-xl">NRI Plan</p>
                             <div>
@@ -114,26 +100,18 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Test</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$2899</p>
-                            <p className="underline text-black opacity-80">+State Additional</p>
-                            <div className="flex items-center gap-3">
-                                <Image src="/images/button.png" alt="button" width={30} height={15} />
-                                <p>
-                                    Add <span className="bg-gradient-to-r from-red-600 via-orange-500  to-blue-400 bg-clip-text text-transparent">Live Tax Advice</span>
-                                </p>
-                                <CiCircleAlert className="text-xl" />
-                            </div>
+                            <p className="text-4xl font-bold">₹2899</p>
+
                         </div>
                         <div className="flex items-center gap-2 bg-custom-green py-2 pl-5">
                             <FaTag />
-                            <p className="text-[#DE5C09]">38%</p>
-                            <p>Less than Turbo Tax</p>
+                            <p>Clear tax & Others Price ₹ 1899</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
                             <p>Book now</p>
                         </div>
                     </div>
-                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
+                    <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[390px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4    ">
                             <p className="font-bold text-xl">Get a customized plan</p>
                             <div>
@@ -150,20 +128,12 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Health Saving Account</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$3599</p>
-                            <p className="underline text-black opacity-80">+State Additional</p>
-                            <div className="flex items-center gap-3">
-                                <Image src="/images/button.png" alt="button" width={30} height={15} />
-                                <p>
-                                    Add <span className="bg-gradient-to-r from-red-600 via-orange-500  to-blue-400 bg-clip-text text-transparent">Live Tax Advice</span>
-                                </p>
-                                <CiCircleAlert className="text-xl" />
-                            </div>
+                            <p className="text-4xl font-bold">₹3599</p>
+
                         </div>
                         <div className="flex items-center gap-2 bg-custom-green py-2 pl-5">
                             <FaTag />
-                            <p className="text-[#DE5C09]">36%</p>
-                            <p>Less than Turbo Tax</p>
+                            <p>Clear tax & Others Price ₹ 1899</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
                             <p>Book now</p>
