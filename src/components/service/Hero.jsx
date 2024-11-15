@@ -37,7 +37,7 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Student,Child Tax Credit, More</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$39.99</p>
+                            <p className="text-4xl font-bold">$1899</p>
                             <p className="underline text-black opacity-80">+State Additional</p>
                             <div className="flex items-center gap-3">
                                 <Image src="/images/button.png" alt="button" width={30} height={15} />
@@ -53,7 +53,7 @@ const Hero = () => {
                             <p>Less than Turbo Tax</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
-                            <p>Start for Free</p>
+                            <p>Book now</p>
                         </div>
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
@@ -78,7 +78,7 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Health Savings Account</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$49.99</p>
+                            <p className="text-4xl font-bold">$999</p>
                             <p className="underline text-black opacity-80">+State Additional</p>
                             <div className="flex items-center gap-3">
                                 <Image src="/images/button.png" alt="button" width={30} height={15} />
@@ -90,18 +90,18 @@ const Hero = () => {
                         </div>
                         <div className="flex items-center gap-2 bg-custom-green py-2 pl-5">
                             <FaTag />
-                            <p className="text-[#DE5C09]">28%</p>
-                            <p>Less than Turbo Tax</p>
+
+                            <p>Clear tax & Others Price ₹ 1899</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
-                            <p>Start for Free</p>
+                            <p>Book now</p>
                         </div>
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4  h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
                         <div className="flex flex-col ml-5 gap-4    ">
                             <p className="font-bold text-xl">NRI Plan</p>
                             <div>
-                                <p className="font-semibold">Everything in Deluxe plus</p>
+                                <p className="font-semibold">Designed for NRIs</p>
                             </div>
                             <ul className="flex flex-col gap-2">
                                 <li className="flex items-center">
@@ -112,9 +112,9 @@ const Hero = () => {
                                     <p>Sale of Home</p></li>
                                 <li className="flex items-center">
                                     <GoDotFill />
-                                    <p>Rental Property Income</p></li>
+                                    <p>Test</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$79.99</p>
+                            <p className="text-4xl font-bold">$2899</p>
                             <p className="underline text-black opacity-80">+State Additional</p>
                             <div className="flex items-center gap-3">
                                 <Image src="/images/button.png" alt="button" width={30} height={15} />
@@ -130,7 +130,7 @@ const Hero = () => {
                             <p>Less than Turbo Tax</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
-                            <p>Start for Free</p>
+                            <p>Book now</p>
                         </div>
                     </div>
                     <div className="flex flex-col bg-white w-[300px] md:w-1/4 h-[475px] md:h-[470px] ml-[100px] md:ml-[0px] rounded-2xl pt-6  gap-5 shadow-2xl">
@@ -150,7 +150,7 @@ const Hero = () => {
                                     <GoDotFill />
                                     <p>Health Saving Account</p></li>
                             </ul>
-                            <p className="text-4xl font-bold">$99.99</p>
+                            <p className="text-4xl font-bold">$3599</p>
                             <p className="underline text-black opacity-80">+State Additional</p>
                             <div className="flex items-center gap-3">
                                 <Image src="/images/button.png" alt="button" width={30} height={15} />
@@ -166,7 +166,7 @@ const Hero = () => {
                             <p>Less than Turbo Tax</p>
                         </div>
                         <div className="bg-custom-green rounded-full w-[250px] h-[40px] items-center justify-center flex flex-col mx-6 border-2 border-gray-900">
-                            <p>Start for Free</p>
+                            <p>Book now</p>
                         </div>
                     </div>
                 </div>
